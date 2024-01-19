@@ -15,6 +15,9 @@
 		CC2A0D562B54E7F1000585BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2A0D552B54E7F1000585BA /* Preview Assets.xcassets */; };
 		CC2A0D5D2B54EC15000585BA /* navigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A0D5C2B54EC15000585BA /* navigationDestination.swift */; };
 		CC2A0D5F2B54EDCA000585BA /* path.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2A0D5E2B54EDCA000585BA /* path.swift */; };
+		CC82FE292B58800F00110967 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC82FE282B58800F00110967 /* CustomNavigationBar.swift */; };
+		CC82FE2B2B5894ED00110967 /* navigationstackButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC82FE2A2B5894ED00110967 /* navigationstackButtons.swift */; };
+		CC9B89ED2B5B2B1D001B8D80 /* NavigationTitleEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9B89EC2B5B2B1D001B8D80 /* NavigationTitleEditable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		CC2A0D552B54E7F1000585BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC2A0D5C2B54EC15000585BA /* navigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationDestination.swift; sourceTree = "<group>"; };
 		CC2A0D5E2B54EDCA000585BA /* path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = path.swift; sourceTree = "<group>"; };
+		CC82FE282B58800F00110967 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		CC82FE2A2B5894ED00110967 /* navigationstackButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationstackButtons.swift; sourceTree = "<group>"; };
+		CC9B89EC2B5B2B1D001B8D80 /* NavigationTitleEditable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleEditable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 				CC2A0D5E2B54EDCA000585BA /* path.swift */,
 				CC13E3D12B54F39400BE69E4 /* navigationPath.swift */,
 				CC13E3D32B54F81300BE69E4 /* navigationpathHome.swift */,
+				CC82FE282B58800F00110967 /* CustomNavigationBar.swift */,
+				CC82FE2A2B5894ED00110967 /* navigationstackButtons.swift */,
+				CC9B89EC2B5B2B1D001B8D80 /* NavigationTitleEditable.swift */,
 			);
 			path = navigation;
 			sourceTree = "<group>";
@@ -150,11 +159,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC13E3D22B54F39400BE69E4 /* navigationPath.swift in Sources */,
+				CC9B89ED2B5B2B1D001B8D80 /* NavigationTitleEditable.swift in Sources */,
 				CC2A0D5D2B54EC15000585BA /* navigationDestination.swift in Sources */,
 				CC2A0D512B54E7F1000585BA /* ContentView.swift in Sources */,
 				CC2A0D5F2B54EDCA000585BA /* path.swift in Sources */,
+				CC82FE2B2B5894ED00110967 /* navigationstackButtons.swift in Sources */,
 				CC2A0D4F2B54E7F1000585BA /* navigationApp.swift in Sources */,
 				CC13E3D42B54F81300BE69E4 /* navigationpathHome.swift in Sources */,
+				CC82FE292B58800F00110967 /* CustomNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
